@@ -1,0 +1,44 @@
+{% if include.params.article %}
+  {% assign article = include.params.article %}
+{% endif %}
+
+{% if include.params.speed %}
+  {% assign speed = include.params.speed %}
+{% else %}
+  {% assign speed = 350 %}
+{% endif %}
+
+{% assign total_mins = article
+  | strip_html 
+  | strip_newlines 
+  | remove: " "
+  | size
+  | divided_by: speed
+  | at_least: 1 %}
+
+{% assign hours = total_mins | divided_by: 60 %}
+{% assign mins = total_mins | modulo: 60 %}
+
+{% assign return = "大约" %}
+
+{% if hours > 0 %}
+  {% assign unit = "小时" %}
+  {% if hours > 1 %}
+    {% assign unit = unit | append: "" %}
+  {% endif %}
+  {% assign return = return
+    | append: " "
+    | append: hours
+    | append: " "
+    | append: unit %}
+{% endif %}
+
+{% assign unit = "分钟" %}
+{% if mins > 1 %}
+  {% assign unit = unit | append: "" %}
+{% endif %}
+{% assign return = return
+  | append: " "
+  | append: mins
+  | append: " "
+  | append: unit %}
