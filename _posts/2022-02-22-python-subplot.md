@@ -2,10 +2,11 @@
 layout: post
 title: Python可视化：子图
 categories:
-    - 笔记
+    - ComputerScience
 tags:
     - Python
     - matplotlib
+    - 笔记
 ---
 
 ## 利用subplot创建子图

@@ -2,10 +2,11 @@
 layout: post
 title: Python可视化：饼图
 categories:
-    - 笔记
+    - ComputerScience
 tags:
     - Python
     - matplotlib
+    - 笔记
 ---
 
 ## 语法
@@ -58,4 +59,4 @@ plt.show()
 
 ## 绘制效果
 
-![yN6x0O.png](https://s3.ax1x.com/2021/02/07/yN6x0O.png)
+![yN6x0O.png](https://i.postimg.cc/pd23nC7g/Figure-1.png)

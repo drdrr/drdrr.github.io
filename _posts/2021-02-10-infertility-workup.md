@@ -2,9 +2,9 @@
 layout: post
 title: 笔记：不孕症的检查
 categories:
-    - 笔记
-tags:
     - 不孕不育与辅助生殖技术
+tags:
+    - 笔记
 ---
 
 # 初次预约的目标

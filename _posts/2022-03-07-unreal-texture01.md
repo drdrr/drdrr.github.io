@@ -2,9 +2,9 @@
 layout: post
 title: UE4：通过实例更改材质颜色
 categories:
-    - UnrealEngine
-tags:
     - GameDevelopment
+tags:
+    - UnrealEngine
 ---
 
 ![](https://i.postimg.cc/XqF5WfVv/2022-03-06-20-45-47-image.png)
