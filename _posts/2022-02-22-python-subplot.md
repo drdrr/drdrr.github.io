@@ -29,7 +29,7 @@ fig.tight_layout()
 
 运行结果：
 
-![](https://i.postimg.cc/d1mxsPck/2022-02-17-16-28-28-image.png)
+![](https://s2.loli.net/2022/03/09/vlNg9wX8siH2hoL.png)
 
 左上、右上和下方图的z位置分别是：1,2,2。
 
@@ -49,4 +49,4 @@ fig.tight_layout()
 
 运行结果：
 
-![](https://i.postimg.cc/vTYSDqGP/2022-02-17-16-21-54-image.png)
+![](https://s2.loli.net/2022/03/09/1P2XTyL6FRsJv5S.png)
